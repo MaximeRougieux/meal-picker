@@ -9,10 +9,15 @@
  */
 
 import React from 'react';
-import {SafeAreaView, StyleProp, useColorScheme, ViewStyle} from 'react-native';
+import {
+  SafeAreaView,
+  StyleProp,
+  useColorScheme,
+  ViewStyle,
+} from 'react-native';
 
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {Square} from './src/playground/components/Square';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
+import { Square } from './src/playground/components/Square';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
