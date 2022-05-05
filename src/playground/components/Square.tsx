@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-export const Carre = () => {
+export const Square = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Hello</Text>
