@@ -27,7 +27,7 @@ const useGetChickenMeals = (keyword: string) => {
     return () => {};
   }, [keyword]);
 
-  return [loading, error, items] as const;
+  return { loading, error, items };
 };
 
 export default useGetChickenMeals;

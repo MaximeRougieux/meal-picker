@@ -1,14 +1,14 @@
 import React from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, Text } from 'react-native';
 import { RecipeItem } from '../components/RecipeItem';
-import useGetChickenMeals from '../usecases/useGetChickenMeals';
+import useGetMeals from '../usecases/useGetMeals';
 
 interface RecipeListProps {
   keyword: string;
 }
 
 export const RecipeList = ({ keyword }: RecipeListProps) => {
-  const [loading, error, items] = useGetChickenMeals(keyword);
+  const { loading, error, items } = useGetMeals(keyword);
 
   return (
     <ScrollView>
