@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#F3F3F3",
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 36,
+        "marginHorizontal": 8,
+      }
+    }
+  >
+    Welcome to Meal Picker
+  </Text>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 16,
+          }
+        }
+      >
+        Nock: Disallowed net connect for "www.themealdb.com:443/api/json/v1/1/search.php?s=Chicken"
+      </Text>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
