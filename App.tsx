@@ -32,7 +32,7 @@ const App = () => {
   return (
     <SafeAreaView style={backgroundStyle}>
       <Text style={styles.title}>Welcome to Meal Picker</Text>
-      <RecipeList />
+      <RecipeList keyword="Chicken" />
     </SafeAreaView>
   );
 };
