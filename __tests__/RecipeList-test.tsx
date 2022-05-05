@@ -20,7 +20,7 @@ test('renders correctly', async () => {
         },
       ],
     });
-  const { queryByHintText, toJSON } = render(<RecipeList keyword="soup" />);
-  await waitForElementToBeRemoved(() => queryByHintText('loading'));
+  const { queryByTestId, toJSON } = render(<RecipeList keyword="soup" />);
+  await waitForElementToBeRemoved(() => queryByTestId('loading'));
   expect(toJSON()).toMatchSnapshot();
 });

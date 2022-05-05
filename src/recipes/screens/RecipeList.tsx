@@ -13,7 +13,7 @@ export const RecipeList = ({ keyword }: RecipeListProps) => {
   return (
     <ScrollView>
       {loading ? (
-        <ActivityIndicator accessibilityHint="loading" />
+        <ActivityIndicator testID="loading" />
       ) : error !== null ? (
         <Text style={styles.errorText}>{error}</Text>
       ) : items.length === 0 ? (

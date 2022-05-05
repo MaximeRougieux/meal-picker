@@ -14,7 +14,7 @@ import {
 
 it('renders correctly', async () => {
   nock.disableNetConnect();
-  const { toJSON, queryByHintText } = render(<App />);
-  await waitForElementToBeRemoved(() => queryByHintText('loading'));
+  const { toJSON, queryByTestId } = render(<App />);
+  await waitForElementToBeRemoved(() => queryByTestId('loading'));
   expect(toJSON()).toMatchSnapshot();
 });
