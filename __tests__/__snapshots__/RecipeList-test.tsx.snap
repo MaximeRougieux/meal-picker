@@ -1,0 +1,1333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Handi
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/1529446352.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Congee
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/tyywsw1505930373.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Karaage
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/qpxvuq1511798906.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Marengo
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Tandoori chicken
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/qxytrx1511304021.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Couscous
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/1525872624.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Kung Pao Chicken
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/wruvqv1511880994.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Basquaise
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/uwvxpv1511557015.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Parmentier
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/sypxpx1515365095.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Brown Stew Chicken
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/vwrpps1503068729.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Katsu Chicken curry
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/yxsurp1511304301.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Nutty Chicken Curry
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/1529444113.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          General Tso's Chicken
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/xqusqy1487348868.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Kentucky Fried Chicken
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/xrrtss1511555269.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Ham and Leek Pie
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/syqypv1486981727.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Alfredo Primavera
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/uuuspp1511297945.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken & mushroom Hotpot
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Teriyaki Chicken Casserole
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/qwrtut1468418027.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Potato Gratin with Chicken
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Quinoa Greek Salad
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/hglsbl1614346998.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Piri-piri chicken and slaw
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Enchilada Casserole
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Chicken Fajita Mac and Cheese
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/ypxvwv1505333929.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Crock Pot Chicken Baked Tacos
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 200,
+          "margin": 8,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/media/meals/tytyxu1515363282.jpg",
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "height": "100%",
+            "marginRight": 8,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "height": "100%",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          Jerk chicken with rice & peas
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Chicken
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 200,
+      "margin": 8,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://reactnative.dev/img/tiny_logo.png",
+      }
+    }
+    style={
+      Object {
+        "aspectRatio": 1,
+        "height": "100%",
+        "marginRight": 8,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 24,
+        }
+      }
+    >
+      Hello
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 12,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;

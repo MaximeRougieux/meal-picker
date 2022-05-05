@@ -12,12 +12,14 @@ import React from 'react';
 import {
   SafeAreaView,
   StyleProp,
+  StyleSheet,
+  Text,
   useColorScheme,
   ViewStyle,
 } from 'react-native';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-import { Square } from './src/playground/components/Square';
+import { RecipeList } from './src/recipes/screens/RecipeList';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -25,14 +27,21 @@ const App = () => {
   const backgroundStyle: StyleProp<ViewStyle> = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
     flex: 1,
-    justifyContent: 'center',
   };
 
   return (
     <SafeAreaView style={backgroundStyle}>
-      <Square />
+      <Text style={styles.title}>Welcome to Meal Picker</Text>
+      <RecipeList />
     </SafeAreaView>
   );
 };
+
+const styles = StyleSheet.create({
+  title: {
+    marginHorizontal: 8,
+    fontSize: 36,
+  },
+});
 
 export default App;
