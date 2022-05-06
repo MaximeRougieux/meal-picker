@@ -20,7 +20,11 @@ test('renders correctly', async () => {
         },
       ],
     });
-  const { getByTestId, toJSON, getByText } = render(<RecipeList />);
+  const route: any = {};
+  const navigation: any = {};
+  const { getByTestId, toJSON, getByText } = render(
+    <RecipeList route={route} navigation={navigation} />,
+  );
   await waitForElementToBeRemoved(() => getByTestId('loading'));
   expect(getByText('Spicy Arrabiata Penne')).toBeTruthy();
   expect(toJSON()).toMatchSnapshot();

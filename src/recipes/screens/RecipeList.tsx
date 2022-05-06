@@ -8,9 +8,9 @@ import {
   View,
 } from 'react-native';
 import { RecipeListProps } from 'utils/navigation/types';
-import { RecipeItem } from '../components/RecipeItem';
-import SearchBar from '../components/SearchBar';
-import useGetMeals from '../usecases/useGetMeals';
+import { RecipeItem } from 'recipes/components/RecipeItem';
+import SearchBar from 'recipes/components/SearchBar';
+import useGetMeals from 'recipes/usecases/useGetMeals';
 
 export const RecipeList = ({ navigation }: RecipeListProps) => {
   const [keyword, setKeyword] = useState('');
