@@ -9,43 +9,42 @@
  */
 
 import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleProp,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  ViewStyle,
-} from 'react-native';
-
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import { SafeAreaView, StyleProp, ViewStyle } from 'react-native';
+import { RecipeDetails } from './src/recipes/screens/RecipeDetails';
 import { RecipeList } from './src/recipes/screens/RecipeList';
+import { RootStackParamsList } from './src/utils/navigation/types';
+
+const { Navigator, Screen } = createNativeStackNavigator<RootStackParamsList>();
 
 const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
   const backgroundStyle: StyleProp<ViewStyle> = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+    backgroundColor: '#EAEAEA',
     flex: 1,
-    margin: 8,
   };
 
   return (
-    <NavigationContainer>
-      <SafeAreaView style={backgroundStyle}>
-        <Text style={styles.title}>Welcome to Meal Picker</Text>
-        <RecipeList />
-      </SafeAreaView>
-    </NavigationContainer>
+    <SafeAreaView style={backgroundStyle}>
+      <NavigationContainer>
+        <Navigator initialRouteName="Home">
+          <Screen
+            name="Home"
+            component={RecipeList}
+            options={{ headerShown: false }}
+          />
+          <Screen
+            name="Details"
+            component={RecipeDetails}
+            options={{
+              headerTitle: '',
+              headerStyle: { backgroundColor: '#EAEAEA' },
+            }}
+          />
+        </Navigator>
+      </NavigationContainer>
+    </SafeAreaView>
   );
 };
-
-const styles = StyleSheet.create({
-  title: {
-    marginVertical: 16,
-    fontSize: 36,
-  },
-});
 
 export default App;

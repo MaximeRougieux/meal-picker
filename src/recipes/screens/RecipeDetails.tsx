@@ -1,10 +1,7 @@
 import React from 'react';
 import { ScrollView, Text, Image, View, StyleSheet } from 'react-native';
-import { Meal } from '../types/APIMealsResponseData';
-
-interface RecipeDetailsProps {
-  meal: Meal;
-}
+import { Meal } from 'recipes/types/APIMealsResponseData';
+import { RecipeDetailsProps } from 'utils/navigation/types';
 
 interface RecipeInstructionProps {
   item: string;
@@ -20,16 +17,23 @@ const RecipeInstruction = ({ item, index }: RecipeInstructionProps) => {
   );
 };
 
-export const RecipeDetails = ({ meal }: RecipeDetailsProps) => {
+const getInstructionsComponents = (meal: Meal) =>
+  meal.strInstructions
+    .split('\r\n')
+    .filter(instruction => instruction)
+    .map((item, index) => (
+      <RecipeInstruction item={item} index={index} key={index} />
+    ));
+
+export const RecipeDetails = ({ route }: RecipeDetailsProps) => {
+  const { meal } = route.params;
   return (
     <ScrollView>
       <Image source={{ uri: meal.strMealThumb }} style={styles.image} />
       <View style={styles.container}>
         <Text style={styles.title}>{meal.strMeal}</Text>
         <Text style={styles.category}>{meal.strCategory}</Text>
-        {meal.strInstructions.split('\r\n').map((item, index) => (
-          <RecipeInstruction item={item} index={index} key={index} />
-        ))}
+        {getInstructionsComponents(meal)}
       </View>
     </ScrollView>
   );
@@ -43,7 +47,7 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 50,
   },
   category: {
-    textAlign: 'left',
+    alignSelf: 'flex-end',
     fontSize: 20,
     fontStyle: 'italic',
   },
