@@ -11,7 +11,7 @@ interface RecipeInstructionProps {
 const RecipeInstruction = ({ item, index }: RecipeInstructionProps) => {
   return (
     <View style={styles.instructionContainer}>
-      <Text>{`${index}.   `}</Text>
+      <Text>{`${index + 1}.   `}</Text>
       <Text>{item}</Text>
     </View>
   );
