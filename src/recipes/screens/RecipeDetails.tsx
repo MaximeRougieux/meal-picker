@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, Text, Image, View, StyleSheet } from 'react-native';
-import { Meal } from 'recipes/types/APIMealsResponseData';
-import { RecipeDetailsProps } from 'utils/navigation/types';
+import { RecipeDetailsProps } from '../../utils/navigation/types';
+import { Meal } from '../types/APIMealsResponseData';
 
 interface RecipeInstructionProps {
   item: string;

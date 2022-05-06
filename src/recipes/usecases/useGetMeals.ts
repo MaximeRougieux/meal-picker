@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { APIMealResponseData, Meal } from 'recipes/types/APIMealsResponseData';
 import axios from 'axios';
+import { APIMealResponseData, Meal } from '../types/APIMealsResponseData';
 
 const useGetChickenMeals = (keyword: string) => {
   const [loading, setLoading] = useState(true);

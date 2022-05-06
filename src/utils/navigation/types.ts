@@ -1,5 +1,5 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { Meal } from 'recipes/types/APIMealsResponseData';
+import { Meal } from '../../recipes/types/APIMealsResponseData';
 
 export type RootStackParamsList = {
   Home: undefined;
