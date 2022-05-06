@@ -8,6 +8,7 @@
  * @format
  */
 
+import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
 import {
   SafeAreaView,
@@ -31,10 +32,12 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <Text style={styles.title}>Welcome to Meal Picker</Text>
-      <RecipeList />
-    </SafeAreaView>
+    <NavigationContainer>
+      <SafeAreaView style={backgroundStyle}>
+        <Text style={styles.title}>Welcome to Meal Picker</Text>
+        <RecipeList />
+      </SafeAreaView>
+    </NavigationContainer>
   );
 };
 
