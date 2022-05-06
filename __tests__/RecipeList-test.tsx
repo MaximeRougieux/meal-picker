@@ -8,7 +8,7 @@ import {
 
 test('renders correctly', async () => {
   nock('https://www.themealdb.com/api/json/v1/1')
-    .get('/search.php?s=soup')
+    .get('/search.php?s=')
     .reply(200, {
       meals: [
         {
@@ -20,7 +20,8 @@ test('renders correctly', async () => {
         },
       ],
     });
-  const { queryByTestId, toJSON } = render(<RecipeList />);
-  await waitForElementToBeRemoved(() => queryByTestId('loading'));
+  const { getByTestId, toJSON, getByText } = render(<RecipeList />);
+  await waitForElementToBeRemoved(() => getByTestId('loading'));
+  expect(getByText('Spicy Arrabiata Penne')).toBeTruthy();
   expect(toJSON()).toMatchSnapshot();
 });
