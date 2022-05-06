@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<TextInput
+  onChangeText={[Function]}
+  placeholder="Search"
+  style={
+    Object {
+      "fontSize": 18,
+      "margin": 6,
+    }
+  }
+  testID="searchbar"
+/>
+`;

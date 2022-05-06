@@ -8,6 +8,7 @@ const useGetChickenMeals = (keyword: string) => {
   const [items, setItems] = useState<Meal[]>([]);
 
   useEffect(() => {
+    setLoading(true);
     axios
       .get<APIMealResponseData>(
         `https://www.themealdb.com/api/json/v1/1/search.php?s=${keyword}`,

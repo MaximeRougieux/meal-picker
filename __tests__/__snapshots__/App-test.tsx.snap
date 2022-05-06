@@ -7,6 +7,7 @@ exports[`renders correctly 1`] = `
     Object {
       "backgroundColor": "#F3F3F3",
       "flex": 1,
+      "margin": 8,
     }
   }
 >
@@ -14,12 +15,23 @@ exports[`renders correctly 1`] = `
     style={
       Object {
         "fontSize": 36,
-        "marginHorizontal": 8,
+        "marginVertical": 16,
       }
     }
   >
     Welcome to Meal Picker
   </Text>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Search"
+    style={
+      Object {
+        "fontSize": 18,
+        "margin": 6,
+      }
+    }
+    testID="searchbar"
+  />
   <RCTScrollView>
     <View>
       <Text
@@ -30,7 +42,7 @@ exports[`renders correctly 1`] = `
           }
         }
       >
-        Nock: Disallowed net connect for "www.themealdb.com:443/api/json/v1/1/search.php?s=Chicken"
+        Nock: Disallowed net connect for "www.themealdb.com:443/api/json/v1/1/search.php?s="
       </Text>
     </View>
   </RCTScrollView>

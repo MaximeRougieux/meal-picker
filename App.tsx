@@ -27,19 +27,20 @@ const App = () => {
   const backgroundStyle: StyleProp<ViewStyle> = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
     flex: 1,
+    margin: 8,
   };
 
   return (
     <SafeAreaView style={backgroundStyle}>
       <Text style={styles.title}>Welcome to Meal Picker</Text>
-      <RecipeList keyword="Chicken" />
+      <RecipeList />
     </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
   title: {
-    marginHorizontal: 8,
+    marginVertical: 16,
     fontSize: 36,
   },
 });
