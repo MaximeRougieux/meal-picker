@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <Image
+      source={
+        Object {
+          "uri": "https://www.themealdb.com/images/media/meals/txsupu1511815755.jpg",
+        }
+      }
+      style={
+        Object {
+          "borderBottomLeftRadius": 50,
+          "borderBottomRightRadius": 50,
+          "height": 300,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "marginHorizontal": 12,
+          "marginTop": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "black",
+            "fontFamily": "Helvetica",
+            "fontSize": 36,
+            "fontWeight": "500",
+            "marginBottom": 24,
+            "textAlign": "center",
+          }
+        }
+      >
+        Timbits
+      </Text>
+      <Text
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "fontSize": 20,
+            "fontStyle": "italic",
+          }
+        }
+      >
+        Dessert
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Text>
+          0.   
+        </Text>
+        <Text>
+          Sift together dry ingredients.
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Text>
+          1.   
+        </Text>
+        <Text>
+          Mix together wet ingredients and incorporate into dry. Stir until smooth.
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Text>
+          2.   
+        </Text>
+        <Text>
+          Drop by teaspoonfuls(no bigger) into hot oil (365 degrees, no hotter), turning after a few moments until golden brown on all sides.
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Text>
+          3.   
+        </Text>
+        <Text>
+          Remove and drain.
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Text>
+          4.   
+        </Text>
+        <Text>
+          Roll in cinnamon sugar while still warm and serve.
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
