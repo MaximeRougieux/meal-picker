@@ -1,7 +1,7 @@
 import 'react-native';
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react-native';
-import SearchBar from '../src/recipes/components/SearchBar';
+import SearchBar from 'recipes/components/SearchBar';
 
 test('renders correctly', async () => {
   const setKeyword = jest.fn();

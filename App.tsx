@@ -12,9 +12,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import { SafeAreaView, StyleProp, ViewStyle } from 'react-native';
-import { RecipeDetails } from './src/recipes/screens/RecipeDetails';
-import { RecipeList } from './src/recipes/screens/RecipeList';
-import { RootStackParamsList } from './src/utils/navigation/types';
+import { RecipeDetails } from 'recipes/screens/RecipeDetails';
+import { RecipeList } from 'recipes/screens/RecipeList';
+import { RootStackParamsList } from 'utils/navigation/types';
 
 const { Navigator, Screen } = createNativeStackNavigator<RootStackParamsList>();
 

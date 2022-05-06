@@ -61,7 +61,7 @@ exports[`renders correctly 1`] = `
         }
       >
         <Text>
-          0.   
+          1.   
         </Text>
         <Text>
           Sift together dry ingredients.
@@ -76,7 +76,7 @@ exports[`renders correctly 1`] = `
         }
       >
         <Text>
-          1.   
+          2.   
         </Text>
         <Text>
           Mix together wet ingredients and incorporate into dry. Stir until smooth.
@@ -91,7 +91,7 @@ exports[`renders correctly 1`] = `
         }
       >
         <Text>
-          2.   
+          3.   
         </Text>
         <Text>
           Drop by teaspoonfuls(no bigger) into hot oil (365 degrees, no hotter), turning after a few moments until golden brown on all sides.
@@ -106,7 +106,7 @@ exports[`renders correctly 1`] = `
         }
       >
         <Text>
-          3.   
+          4.   
         </Text>
         <Text>
           Remove and drain.
@@ -121,7 +121,7 @@ exports[`renders correctly 1`] = `
         }
       >
         <Text>
-          4.   
+          5.   
         </Text>
         <Text>
           Roll in cinnamon sugar while still warm and serve.

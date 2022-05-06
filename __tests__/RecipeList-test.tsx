@@ -1,6 +1,6 @@
 import React from 'react';
 import nock from 'nock';
-import { RecipeList } from '../src/recipes/screens/RecipeList';
+import { RecipeList } from 'recipes/screens/RecipeList';
 import {
   render,
   waitForElementToBeRemoved,

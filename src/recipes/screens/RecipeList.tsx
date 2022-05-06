@@ -10,7 +10,7 @@ import {
 import { RecipeListProps } from '../../utils/navigation/types';
 import { RecipeItem } from '../components/RecipeItem';
 import SearchBar from '../components/SearchBar';
-import useGetMeals from '../usecases/useGetMeals';
+import useGetMeals from 'recipes/usecases/useGetMeals';
 
 export const RecipeList = ({ navigation }: RecipeListProps) => {
   const [keyword, setKeyword] = useState('');
