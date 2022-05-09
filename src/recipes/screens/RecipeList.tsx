@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import {
   ActivityIndicator,
   ScrollView,
@@ -11,10 +11,17 @@ import { RecipeListProps } from '../../utils/navigation/types';
 import { RecipeItem } from '../components/RecipeItem';
 import SearchBar from '../components/SearchBar';
 import useGetMeals from 'recipes/usecases/useGetMeals';
+import { Meal } from 'recipes/types/APIMealsResponseData';
 
 export const RecipeList = ({ navigation }: RecipeListProps) => {
   const [keyword, setKeyword] = useState('');
   const { loading, error, items } = useGetMeals(keyword);
+  const navigateToRecipeDetails = useCallback(
+    (meal: Meal) => {
+      navigation.navigate('Details', { meal: meal });
+    },
+    [navigation],
+  );
 
   return (
     <View style={styles.main}>
@@ -31,7 +38,7 @@ export const RecipeList = ({ navigation }: RecipeListProps) => {
           items.map(meal => (
             <TouchableOpacity
               key={meal.idMeal}
-              onPress={() => navigation.navigate('Details', { meal: meal })}>
+              onPress={() => navigateToRecipeDetails(meal)}>
               <RecipeItem
                 name={meal.strMeal}
                 category={meal.strCategory}
