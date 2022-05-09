@@ -8,6 +8,10 @@ interface RecipeInstructionProps {
   index: number;
 }
 
+interface InstructionsProps {
+  meal: Meal;
+}
+
 const RecipeInstruction = ({ item, index }: RecipeInstructionProps) => {
   return (
     <View style={styles.instructionContainer}>
@@ -17,14 +21,19 @@ const RecipeInstruction = ({ item, index }: RecipeInstructionProps) => {
   );
 };
 
-const getInstructionsComponents = (meal: Meal) =>
-  meal.strInstructions
+const Instructions = ({ meal }: InstructionsProps) => {
+  const textInstructions = meal.strInstructions
     .split('\r\n')
-    .filter(instruction => instruction)
-    .map((item, index) => (
-      <RecipeInstruction item={item} index={index} key={index} />
-    ));
+    .filter(instruction => instruction);
 
+  return (
+    <>
+      {textInstructions.map((item, index) => (
+        <RecipeInstruction item={item} index={index} key={index} />
+      ))}
+    </>
+  );
+};
 export const RecipeDetails = ({ route }: RecipeDetailsProps) => {
   const { meal } = route.params;
   return (
@@ -33,7 +42,7 @@ export const RecipeDetails = ({ route }: RecipeDetailsProps) => {
       <View style={styles.container}>
         <Text style={styles.title}>{meal.strMeal}</Text>
         <Text style={styles.category}>{meal.strCategory}</Text>
-        {getInstructionsComponents(meal)}
+        <Instructions meal={meal} />
       </View>
     </ScrollView>
   );
