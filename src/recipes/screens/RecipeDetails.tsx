@@ -15,8 +15,8 @@ interface InstructionsProps {
 const RecipeInstruction = ({ item, index }: RecipeInstructionProps) => {
   return (
     <View style={styles.instructionContainer}>
-      <Text>{`${index + 1}.   `}</Text>
-      <Text>{item}</Text>
+      <Text style={styles.stepNumber}>{`${index + 1}.`}</Text>
+      <Text style={styles.instructionDetails}>{item}</Text>
     </View>
   );
 };
@@ -76,5 +76,12 @@ const styles = StyleSheet.create({
   instructionContainer: {
     flexDirection: 'row',
     margin: 8,
+  },
+  stepNumber: {
+    justifyContent: 'flex-end',
+    width: 32,
+  },
+  instructionDetails: {
+    flex: 1,
   },
 });

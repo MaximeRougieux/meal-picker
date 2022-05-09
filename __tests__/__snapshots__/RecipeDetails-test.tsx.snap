@@ -60,10 +60,23 @@ exports[`renders correctly 1`] = `
           }
         }
       >
-        <Text>
-          1.   
+        <Text
+          style={
+            Object {
+              "justifyContent": "flex-end",
+              "width": 32,
+            }
+          }
+        >
+          1.
         </Text>
-        <Text>
+        <Text
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
           Sift together dry ingredients.
         </Text>
       </View>
@@ -75,10 +88,23 @@ exports[`renders correctly 1`] = `
           }
         }
       >
-        <Text>
-          2.   
+        <Text
+          style={
+            Object {
+              "justifyContent": "flex-end",
+              "width": 32,
+            }
+          }
+        >
+          2.
         </Text>
-        <Text>
+        <Text
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
           Mix together wet ingredients and incorporate into dry. Stir until smooth.
         </Text>
       </View>
@@ -90,10 +116,23 @@ exports[`renders correctly 1`] = `
           }
         }
       >
-        <Text>
-          3.   
+        <Text
+          style={
+            Object {
+              "justifyContent": "flex-end",
+              "width": 32,
+            }
+          }
+        >
+          3.
         </Text>
-        <Text>
+        <Text
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
           Drop by teaspoonfuls(no bigger) into hot oil (365 degrees, no hotter), turning after a few moments until golden brown on all sides.
         </Text>
       </View>
@@ -105,10 +144,23 @@ exports[`renders correctly 1`] = `
           }
         }
       >
-        <Text>
-          4.   
+        <Text
+          style={
+            Object {
+              "justifyContent": "flex-end",
+              "width": 32,
+            }
+          }
+        >
+          4.
         </Text>
-        <Text>
+        <Text
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
           Remove and drain.
         </Text>
       </View>
@@ -120,10 +172,23 @@ exports[`renders correctly 1`] = `
           }
         }
       >
-        <Text>
-          5.   
+        <Text
+          style={
+            Object {
+              "justifyContent": "flex-end",
+              "width": 32,
+            }
+          }
+        >
+          5.
         </Text>
-        <Text>
+        <Text
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
           Roll in cinnamon sugar while still warm and serve.
         </Text>
       </View>
