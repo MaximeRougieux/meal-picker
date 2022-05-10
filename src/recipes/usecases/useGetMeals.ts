@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { APIMealResponseData, Meal } from '../types/APIMealsResponseData';
 import axios from 'axios';
+import { APIMealResponseData, Meal } from 'recipes/types/APIMealsResponseData';
 
 const useGetChickenMeals = (keyword: string) => {
   const [loading, setLoading] = useState(true);
@@ -9,6 +9,8 @@ const useGetChickenMeals = (keyword: string) => {
 
   useEffect(() => {
     setLoading(true);
+    setError(null);
+    setItems([]);
     axios
       .get<APIMealResponseData>(
         `https://www.themealdb.com/api/json/v1/1/search.php?s=${keyword}`,
@@ -16,7 +18,7 @@ const useGetChickenMeals = (keyword: string) => {
       .then(response => response.data)
       .then(data => {
         setLoading(false);
-        if (data.meals !== undefined) {
+        if (data.meals) {
           setItems(data.meals);
         }
       })
